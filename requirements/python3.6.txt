@@ -1,0 +1,17 @@
+numpy
+scipy
+xmltodict
+biopython
+xlrd
+pandas
+statsmodels
+matplotlib
+seaborn
+matplotlib_venn
+jupyter
+jupyter-client
+jupyter-console
+jupyter-contrib-core
+jupyter-contrib-nbextensions
+jupyter-core
+jupyter-nbextensions-configurator

@@ -1,0 +1,6 @@
+bin/cwl-workflow
+*.gz
+*.zip
+*.bam
+*.bai
+commands
