@@ -4,9 +4,9 @@ This project was designed to evaluate a Differential Gene Expression Analysis wo
 
 We tested five workflows for the DGA. All workflows used the same aligner (STAR) and quantification (TPMCalculator) tool but different DGA software: EdgeR, Deseq2, SAMSeq, the union and the intercept off all identified genes from all DGA tools. Recall and precision values were calculated using the same approach described in the paper using the expressions: 
 
-<img src="https://latex.codecogs.com/gif.latex?Recall = \frac{G_{r} \cup G_{d}}{G_{d}}" />
+<img src="https://latex.codecogs.com/gif.latex?Recall=\frac{G_{r}%20\cup%20G_{d}}{G_{d}}" />
 
-<img src="https://latex.codecogs.com/gif.latex?Precision = \frac{G_{r} \cup G_{d}}{G_{r}}" />
+<img src="https://latex.codecogs.com/gif.latex?Precision%20=%20\frac{G_{r}%20\cup%20G_{d}}{G_{r}}" />
 
 <img src="https://latex.codecogs.com/gif.latex?G_r" /> genes in reference and <img src="https://latex.codecogs.com/gif.latex?G_d" /> genes identified
 
@@ -42,4 +42,25 @@ Our workflow is based on a set of Jupyter Notebooks and [CWL workflows](https://
 
  1. [Python 3.6](./requirements/python3.6.txt)
  2. CWL Tools definition files: [cwl-workflow](https://gitlab.com/r78v10a07/cwl-workflow/) 
+ 
+
+# Public Domain notice
+
+National Center for Biotechnology Information.
+
+This software is a "United States Government Work" under the terms of the United States
+Copyright Act. It was written as part of the authors' official duties as United States
+Government employees and thus cannot be copyrighted. This software is freely available
+to the public for use. The National Library of Medicine and the U.S. Government have not
+ placed any restriction on its use or reproduction.
+
+Although all reasonable efforts have been taken to ensure the accuracy and reliability
+of the software and data, the NLM and the U.S. Government do not and cannot warrant the
+performance or results that may be obtained by using this software or data. The NLM and
+the U.S. Government disclaim all warranties, express or implied, including warranties
+of performance, merchantability or fitness for any particular purpose.
+
+Please cite NCBI in any work or product based on this material.
+
+
  
